@@ -17,7 +17,7 @@
 }
 
 .bubble_title{
-    background-image: url("../../assets/bubbles_medium.svg");
+    background-image: url("../../assets/bubbles/bubbles_medium.svg");
     background-repeat: no-repeat;
     background-position: 0;
     background-size: contain;

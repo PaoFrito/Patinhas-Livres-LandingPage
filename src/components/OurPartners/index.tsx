@@ -17,7 +17,7 @@ export const OurPartners = () => {
   }, []);
 
   return (
-    <section className={styles.section}>
+    <section id="Parceiros" className={styles.section}>
         <div>
           <h2 className={styles.title}>
               <pre>Nossos</pre>

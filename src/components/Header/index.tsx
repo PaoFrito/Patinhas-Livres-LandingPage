@@ -6,10 +6,10 @@ export const Header = () => {
     <header className={styles.header}>
       <img className={styles.img} src={logo} alt="Patinhas Livres"></img>
       <nav className={styles.nav}>
-        <a>Home</a>
-        <a>Sobre</a>
-        <a>Parceiros</a>
-        <a>Contato</a>
+        <a href="#">Home</a>
+        <a href="#SobreNos">Sobre</a>
+        <a href="#Parceiros">Parceiros</a>
+        <a href="#Contato">Contato</a>
       </nav>
       <a className={styles.cadastro}>Cadastro</a>
     </header>

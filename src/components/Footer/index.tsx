@@ -5,7 +5,7 @@ import twitter_icon from "../../assets/twitter_icon.svg";
 
 export const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer id="Contato" className={styles.footer}>
         <nav className={styles.nav}>
             <a href="#">Privacy Policy</a>
             <a href="#">Report a bug</a>

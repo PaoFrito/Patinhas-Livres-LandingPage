@@ -22,6 +22,10 @@
     gap: 72px;
 }
 
+a{
+    text-decoration: none;
+}
+
 a:hover{
     cursor: pointer;
 }

@@ -4,7 +4,7 @@ import afalou from "../../assets/afalou.png";
 
 export const AboutUs = () => {
   return (
-    <div className={styles.root}>
+    <div id="SobreNos" className={styles.root}>
       <section className={styles.title}>
           <div className={styles.title_div}></div>
           <div className={styles.title_div}>
