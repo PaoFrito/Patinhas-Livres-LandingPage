@@ -25,7 +25,10 @@ export const AboutUs = () => {
             <img className={styles.afalou} src={afalou}/>
           </div>
           <div className={styles.col_3}>
-            <p className={styles.text}>Colocar outra frase sobre quem somos e o que fazemos de efeito</p>
+            <p className={styles.text}>
+              <pre>A cada 10 reais doados</pre>
+              <pre>1 animal é regatado</pre>
+            </p>
           </div>
         </div>
         <div className={styles.row_2}>
