@@ -2,7 +2,7 @@ import styles from "./index.module.css";
 import pug from "../../assets/pug.png";
 import crown from "../../assets/crown.png";
 import arrow from "../../assets/arrow.svg";
-import big_bubbles from "../../assets/big_bubbles.svg";
+import big_bubbles from "../../assets/bubbles/big_bubbles.svg";
 
 export const MainContent = () => {
   return (

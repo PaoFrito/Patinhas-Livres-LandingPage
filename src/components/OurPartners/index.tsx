@@ -9,12 +9,9 @@ export const OurPartners = () => {
   const { setPartnerListState } = usePartnerContext();
 
   useEffect(() => {
-    api
-      .get("partners")
-      .then((response) => {
+    api.get("partners").then((response) => {
         return response.data;
-      })
-      .then((data) => {
+      }).then((data) => {
         setPartnerListState(data);
       });
   }, []);
