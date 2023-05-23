@@ -1,4 +1,4 @@
-import { useState, useEffect} from "react";
+import { useEffect} from "react";
 import styles from "./index.module.css";
 import { PartnerCard } from "../PartnerCard";
 import {api} from "../../api/index";
@@ -9,7 +9,7 @@ export const OurPartners = () => {
   const { setPartnerListState } = usePartnerContext();
 
   useEffect(() => {
-    api.get("partners").then((response) => {
+    api.get("partner").then((response) => {
         return response.data;
       }).then((data) => {
         setPartnerListState(data);
