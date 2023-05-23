@@ -53,6 +53,8 @@
     color: var(--pure-white);
     font-size: 16px;
     font-weight: 700;
+
+    cursor: pointer;
     
     padding: 12px 32px 12px 32px;
 
