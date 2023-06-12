@@ -7,7 +7,7 @@ export const Header = () => {
       <img className={styles.img} src={logo} alt="Patinhas Livres"></img>
       <nav className={styles.nav}>
         <a href="#">Home</a>
-        <a href="#SobreNos">Sobre</a>
+        <a href="#SobreNos">Quem Somos</a>
         <a href="#Parceiros">Parceiros</a>
         <a href="#Contato">Contato</a>
       </nav>
